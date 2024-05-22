@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(245, 237, 227);
+}
+body>main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(209, 189, 4, 0.945);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#msg {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.hidden {
+    visibility: hidden;
+}
